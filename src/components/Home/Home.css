@@ -1,0 +1,9 @@
+.result {
+  width: 100%;
+  margin: 0.25rem 0 0 0.25rem;
+  font-size: 70%;
+}
+
+.spinner {
+  vertical-align: unset;
+}

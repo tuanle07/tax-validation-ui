@@ -9,16 +9,16 @@ import Error from './components/Error/Error';
 import Home from './components/Home/Home';
 
 const App = () => (
-  <Jumbotron className="appContainer">
-    <Container>
-      <Router>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/error" component={Error} />
-        </Switch>
-      </Router>
-    </Container>
-  </Jumbotron>
+    <Jumbotron className="appContainer">
+        <Container>
+            <Router>
+                <Switch>
+                    <Route exact path="/" component={Home} />
+                    <Route path="/error" component={Error} />
+                </Switch>
+            </Router>
+        </Container>
+    </Jumbotron>
 );
 
 export default App;

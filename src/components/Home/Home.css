@@ -1,9 +1,21 @@
 .result {
-  width: 100%;
-  margin: 0.25rem 0 0 0.25rem;
-  font-size: 70%;
+    width: 100%;
+    margin: 0.25rem 0 0 0.25rem;
+    font-size: 70%;
+}
+
+.result.text-success::before {
+    font-family: 'Material Icons';
+    content: '\E876';
+    vertical-align: text-top;
+}
+
+.result.text-danger::before {
+    font-family: 'Material Icons';
+    content: '\E000';
+    vertical-align: text-top;
 }
 
 .spinner {
-  vertical-align: unset;
+    vertical-align: unset;
 }
